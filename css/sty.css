@@ -1,0 +1,65 @@
+body{
+	font: 11px Verdana, Tahoma, Arial normal;
+	color: #333;
+	line-height:1.6em;
+}
+
+a{
+	color:#696969;
+}
+
+a:hover{
+	color:#000;
+	font-weight:bold;
+}
+
+#content{
+	width:960px;
+	margin:0 auto;
+	padding: 15px;
+}
+
+#header{
+	width:95%;
+	margin:0 auto;
+	text-align:center;
+	color:#333;
+	background:#EEE;
+	padding:5px;
+	border-radius:8px;
+}
+
+.text{
+	padding:8px 5px 5px 15px;
+	margin:5px 0 15px 30px;
+}
+
+.text ul{
+	line-height:2em;
+}
+
+.text p{
+	text-indent: 25px;
+}
+
+.text h2, .text h3{
+	border-bottom:2px solid #CCC;
+	letter-spacing:1.5px;
+}
+
+.text h4{
+	border-bottom:2px solid #CCC;
+	letter-spacing:1.5px;
+	float:left;
+	margin-left:25px;
+}
+
+.text p{
+	line-height:1.8em;
+}
+
+/*** other classes ***/
+.clear{
+	clear:both;
+}
+/*** other classes ***/
