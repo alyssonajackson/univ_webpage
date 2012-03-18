@@ -1,5 +1,5 @@
 body{
-	font: 11px Verdana, Tahoma, Arial normal;
+	font: 12px Verdana, Tahoma, Arial normal;
 	color: #333;
 	line-height:1.6em;
 }
@@ -21,17 +21,42 @@ a:hover{
 
 #header{
 	width:95%;
-	margin:0 auto;
+	margin:0 auto 15px auto;
 	text-align:center;
 	color:#333;
-	background:#EEE;
+	background:#EFEFEF;
 	padding:5px;
 	border-radius:8px;
 }
 
-.text{
+.description{
+	*margin-left:0
+}
+
+.description img{
+	float:left;
+	height: 160px;
+	margin-top:-5px;
+	margin-right: 20px;
+	border:3px solid #EEE;
+	background:#FFF;
+	padding:2px;
+}
+
+.description div.text{
+	width:75%;
+	text-align:justify;
+	text-indent:20px;
+	line-height:2em;
+	border:3px solid #EEE;
+	border-radius: 8px;
+	min-height:160px;
+}
+
+#content .text{
 	padding:8px 5px 5px 15px;
 	margin:5px 0 15px 30px;
+	text-align:justify;
 }
 
 .text ul{

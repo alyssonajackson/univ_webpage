@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 <content>
+	<main_photo>gonan.jpg</main_photo>
+	<main_text>In consectetur nisl in tellus pulvinar elementum vehicula erat commodo. Nunc mollis gravida purus rhoncus faucibus. Fusce magna dui, commodo at sagittis at, tempus nec libero. Vestibulum eget dolor ipsum. In et sem ut ante ullamcorper laoreet. Maecenas eleifend, felis vitae feugiat ornare, enim est tempus risus, non mollis nulla ipsum a ante. Sed suscipit dolor eu sapien mattis sagittis ultricies velit dictum. Nunc in dolor augue.</main_text>
 	<text>
 		<files>
 			<description>Baixe os primeiros arquivos</description>
