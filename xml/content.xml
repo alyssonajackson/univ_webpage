@@ -8,41 +8,41 @@
 			<description>Baixe os primeiros arquivos</description>
 			<file>
 				<title>arquivo de teste pdf 1</title>
-				<url>firstpdf-test.pdf</url>
+				<link>firstpdf-test.pdf</link>
 			</file>
 			<file>
 				<title>pdf test 002</title>
-				<url>pdf002.pdf</url>
+				<link>pdf002.pdf</link>
 			</file>			
 		</files>
 	</text>
 	<text>
-		<text_title>Primeiro texto test web page</text_title>
+		<title>Primeiro texto test web page</title>
 		<content>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus arcu at ligula dapibus porttitor. Curabitur sodales, justo vitae fermentum consectetur, purus purus tristique velit, sit amet viverra tortor lectus sed neque. Nam in eros justo. Etiam convallis vehicula elementum. Duis sed rutrum est. Nulla tincidunt massa in mauris porta lobortis. Integer ut risus elit. Curabitur enim mi, dictum nec rutrum quis, feugiat a nisi. Mauris nisl mi, elementum at imperdiet nec, viverra quis ipsum. Duis dapibus sollicitudin consequat. Cras sed ullamcorper dui. Cras id sapien mauris. Sed vulputate velit nec erat interdum in lacinia risus egestas. </content>
 		<files>
 			<description>Baixe os primeiros arquivos</description>
 			<file>
 				<title>máximos e mínimos</title>
-				<url>maximosminimos.pdf</url>
+				<link>maximosminimos.pdf</link>
 			</file>
 			<file>
 				<title>Limites e Derivadas são legais</title>
-				<url>limites.pdf</url>
+				<link>limites.pdf</link>
 			</file>			
 		</files>
 	</text>
 	<text>
-		<text_title>segundo texto - test 002</text_title>
+		<title>segundo texto - test 002</title>
 		<content>Sed eget orci vitae diam faucibus laoreet. Aenean fermentum pretium imperdiet. Quisque eu dui quam. Vestibulum varius dictum est, at tristique sem pharetra ut. Duis vel leo convallis nisl accumsan blandit. Etiam malesuada ante in neque scelerisque feugiat. Aenean a vestibulum nulla. Mauris id mattis ligula. Aliquam at justo in nibh pharetra mattis sit amet non orci. Curabitur vel erat lorem, ut consequat nunc. Nullam convallis lacinia arcu, vitae consectetur orci tincidunt in. </content>
 		<files>
 			<description>Arquivos referentes ao segundo texto</description>
 			<file>
 				<title>pasta compactada</title>
-				<url>files.zip</url>
+				<link>files.zip</link>
 			</file>
 			<file>
 				<title>código fonte</title>
-				<url>sf.gz</url>
+				<link>sf.gz</link>
 			</file>
 		</files>
 	</text>	
