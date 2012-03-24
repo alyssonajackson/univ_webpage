@@ -13,7 +13,7 @@ function get_value(item, tag){
 }
 
 function mklink(item){
-	var href = get_value(item, 'url');
+	var href = get_value(item, 'link');
 	var text = get_value(item, 'title');
 	return html_tag('a', text, {'href' : href});
 }

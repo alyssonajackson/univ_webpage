@@ -8,7 +8,7 @@
 			<description>Baixe os primeiros arquivos</description>
 			<file>
 				<title>arquivo de teste pdf 1</title>
-				<link>firstpdf-test.pdf</link>
+				<link type="newpage">firstpdf-test.pdf</link>
 			</file>
 			<file>
 				<title>pdf test 002</title>
