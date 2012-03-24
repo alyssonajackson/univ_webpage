@@ -12,10 +12,17 @@ function get_value(item, tag){
 	return item.find(tag+':first').text();
 }
 
+function get_attr(item, tag, attr){
+    return attr != undefined ? item.find(tag+':first').attr(attr) : item.find(tag+':first').attr().map();
+}
+
 function mklink(item){
 	var href = get_value(item, 'link');
 	var text = get_value(item, 'title');
-	return html_tag('a', text, {'href' : href});
+    var attr_type = get_attr(item, 'link', 'type');
+    var target = (attr_type == 'newpage') ? {'target' : '_blank'} : {};
+    var attributes = $.extend(target, {'href' : href});
+	return html_tag('a', text, attributes);
 }
 
 function get_files(item){
