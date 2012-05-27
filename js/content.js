@@ -51,6 +51,18 @@ function generate_html(item){
 	return text_title + p_text + html_tag('div', '', {'class': 'clear'}) + file_list;
 }
 
+function generate_top_links_menu(xml_data){
+    $(xml_data).find('top_links').each(function(){
+        $(this).find('link').each(function(){
+            var title = get_value($(this), 'title');
+            var url = get_value($(this), 'url');
+            var icon = get_value($(this), 'icon');
+            url = (url.match(/^https?:\/\//) ? url : 'http://' + url);
+            $('#top_links ul').append(html_tag('li', html_tag('a', title, {'class' : 'icon_' + icon, 'href' : url, 'target' : '_blank'})));
+        });
+    });
+}
+
 function load_content(){
 	$.ajax({
 		url: 'xml/content.xml',
@@ -70,6 +82,9 @@ function load_content(){
 			if(main_text){
 				$('.description').append(html_tag('div', main_text, {'class' : 'text'}));
 			}			
+
+            generate_top_links_menu(xml_data);
+            
 		}
 	});
 	return true;
