@@ -65,7 +65,7 @@ function load_content(){
 			var main_photo = get_value($(xml_data), 'main_photo');
 			var main_text = get_value($(xml_data), 'main_text');
 			if(main_photo){
-				$('.description').append('<img src="imgs/'+main_photo+'" alt="'+main_photo+'" />');
+				$('.description').append('<img src="'+ (!main_photo.match(/^https?:\/\//) ? 'imgs/' : '') + main_photo+'" alt="'+main_photo+'" />');
 			}
 			if(main_text){
 				$('.description').append(html_tag('div', main_text, {'class' : 'text'}));
