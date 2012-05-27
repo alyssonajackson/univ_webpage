@@ -58,7 +58,7 @@ function generate_top_links_menu(xml_data){
             var url = get_value($(this), 'url');
             var icon = get_value($(this), 'icon');
             url = (url.match(/^https?:\/\//) ? url : 'http://' + url);
-            $('#top_links ul').append(html_tag('li', html_tag('a', title, {'class' : 'icon_' + icon, 'href' : url, 'target' : '_blank'})));
+            $('#top_links ul').append(html_tag('li', html_tag('a', title, {'href' : url, 'target' : '_blank'}), (icon ? {'class' : 'icon icon_' + icon} : undefined)));
         });
     });
 }
