@@ -29,6 +29,11 @@ a:hover{
 	border-radius:8px;
 }
 
+#top_links ul li{
+    display:inline;
+    margin-right:10px;
+}
+
 .description{
 	*margin-left:0
 }
@@ -86,5 +91,11 @@ a:hover{
 /*** other classes ***/
 .clear{
 	clear:both;
+}
+.floatLeft{
+    float:left;
+}
+.floatRight{
+    float:right;
 }
 /*** other classes ***/
