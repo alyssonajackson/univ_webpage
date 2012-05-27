@@ -32,6 +32,11 @@ a:hover{
 #top_links ul li{
     display:inline;
     margin-right:10px;
+    padding-left: 20px;
+}
+
+#top_links ul li.icon{
+    padding-left: 20px;
 }
 
 .description{
@@ -87,6 +92,18 @@ a:hover{
 .text p{
 	line-height:1.8em;
 }
+
+/*** icons classes ***/
+
+.icon_facebook{
+    background: url("../imgs/icons/Facebook.png") 0px 3px no-repeat transparent;
+}
+
+.icon_twitter{
+    background: url("../imgs/icons/Twitter.png") 0px 3px no-repeat transparent;
+}
+
+/*** icons classes ***/
 
 /*** other classes ***/
 .clear{
