@@ -1,23 +1,43 @@
 \documentclass{article}
-\title{How to fill data into this webpage}
-\author{Alysson Ajackson}
-\date{27th May 2012}
-\begin{document}
-\maketitle
 
-Sections
-\newcounter{qcounter}
-\begin{center}
-\begin{list}{Section \arabic{qcounter}:~}{\usecounter{qcounter}}
-\item Header
-\item Header [sub] Links Menu
-\item Webpage content - Texts
-\item Texts - links
-\end{list}
-\end{center}
+    % Document Header
 
-\vspace{10pt}
+        \title{How to fill data into this webpage}
+        \author{Alysson Ajackson}
+        \date{27th May 2012}
+        \begin{document}
 
-\section {Header}
+        \maketitle
+
+    % Document Header
+
+    Sections
+    \newcounter{qcounter}
+    \begin{center}
+        \begin{list}{Section \arabic{qcounter}:~}{\usecounter{qcounter}}
+        \item Header
+        \item Header [sub] Links Menu
+        \item Webpage content - Texts
+        \item Texts - links
+        \end{list}
+    \end{center}
+
+    \vspace{10pt}
+
+    \section {Header}
+            The structure of \emph{Webpage Header} is: ``Main Title'', ``Sub title'' and ``3th title''.
+            The code in the file \textbf{content.xml} must be like this:
+
+            % Correctly show code into this LaTeX document
+            % FIXME do not use verbatim, use "listings"
+
+            \begin{verbatim}
+            <content>
+                <title1>Your text here</title1>
+                <title2>Your text here</title2>
+                <title3>Your text here</title3>
+            \end{verbatim}
+
+    \section {Header [sub] Links Menu}
 
 \end{document}
